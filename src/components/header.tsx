@@ -6,7 +6,7 @@ import Nagaforum from "/src/components/ui/asset/nagaforumiterasisemifinal.png"
 import Link from 'next/link';
 
 export function Header() {
-  return <header className="container max-w-none flex justify-between">
+  return <header className="container max-w-none flex justify-between h-20">
 <div className="p-4 pl-60 w-1/3 text-left flex">
   <Image
     src={Nagaforum}
