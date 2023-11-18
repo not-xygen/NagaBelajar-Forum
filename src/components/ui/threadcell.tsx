@@ -31,7 +31,7 @@ const ThreadCell = ({ thread }: { thread: Thread }) => {
   
             <div className="thread-cell__info container flex justify-end w-auto">
               <span className="thread-cell__comment-count font-bold whitespace-nowrap">{thread.commentCount} comments</span>
-              <span className="thread-cell__genre ml-2 rounded-full border-blue-500 p-0 border-2 px-3">{thread.genre}</span>
+              <span className="thread-cell__genre ml-2 rounded-full p-0 border-2 px-3" style={{"border-color":"#ff00ff"}}>{thread.genre}</span>
             </div>
 
           </div>
@@ -48,7 +48,6 @@ const ThreadCell = ({ thread }: { thread: Thread }) => {
 };
 
 export default ThreadCell;
-
 
 
 
