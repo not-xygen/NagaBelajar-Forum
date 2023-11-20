@@ -25,7 +25,11 @@ export default function Profile() {
   }, []);
 
   return (
-    <div>
+    <div className="flex">
+      <section>
+        <Sidebar/>
+      </section>
+      <section className="container ml-40 mr-80">
       <div>
         <Detaildetail thread={threadData}/></div>
       <div>
@@ -36,7 +40,7 @@ export default function Profile() {
       <Replyreply thread={threadData}/>
       </div>
 
-      
+        </section>
     </div>
   );
 }
